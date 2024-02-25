@@ -1,5 +1,5 @@
 void setZeroes(int** matrix, int matrixSize, int* matrixColSize) {
-    // 紀錄該為0的row跟clo
+    // 紀錄該為0的row跟col
     bool* zeroRows = (bool*)malloc(matrixSize * sizeof(bool));
     bool* zeroCols = (bool*)malloc(*matrixColSize * sizeof(bool));
 
